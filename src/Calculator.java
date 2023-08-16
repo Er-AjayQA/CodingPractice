@@ -5,33 +5,33 @@
  */
 public class Calculator {
 
-	public void add()
+	public int add(int a, int b)
 	{
-		System.out.println("Adding some number.");
+		return a+b;
 	}
 	
-	public void sub()
+	public int sub(int a, int b)
 	{
-		System.out.println("Subtract some number.");
+		return a-b;
 	}
 	
-	public void mult()
+	public int mult(int a, int b)
 	{
-		System.out.println("Multiply some number.");
+		return a*b;
 	}
 	
-	public void div()
+	public int div(int a, int b)
 	{
-		System.out.println("Divide some number.");
+		return a/b;
 	}
 	
 	public static void main(String[] args) {
 		
 		Calculator calc= new Calculator();
-		calc.add();
-		calc.div();
-		calc.sub();
-		calc.mult();
+		System.out.println(calc.add(10, 20));
+		System.out.println(calc.sub(30, 20));
+		System.out.println(calc.mult(10, 20));
+		System.out.println(calc.div(20, 2));
 	}
 
 }
