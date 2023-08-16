@@ -1,4 +1,8 @@
 
+/**
+ * @author Ajay Kumar
+ * This class is used for calculator.
+ */
 public class Calculator {
 
 	public void add()
@@ -28,7 +32,6 @@ public class Calculator {
 		calc.div();
 		calc.sub();
 		calc.mult();
-
 	}
 
 }
